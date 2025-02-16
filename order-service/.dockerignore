@@ -1,0 +1,4 @@
+mysql/
+target/
+*.log
+.dockerignore
