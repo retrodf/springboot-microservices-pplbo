@@ -1,0 +1,8 @@
+db.product.find().pretty();
+show collections;
+db.product.find().pretty();
+db.product.insertOne({ name: "Test Product", description: "Sample data", skuCode: "TEST123", price: 1000 });
+db.product.find().pretty();
+show collections;
+use test;
+show dbs;

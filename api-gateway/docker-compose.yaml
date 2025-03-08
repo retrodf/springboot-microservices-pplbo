@@ -1,6 +1,7 @@
 version: '4'
 services:
   keycloak-mysql:
+    container_name: keycloak-mysql
     image: mysql:8.1.0
     volumes:
       - ./volume-data/mysql_keycloak_data:/var/lib/mysql
